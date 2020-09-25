@@ -1,0 +1,23 @@
+#############################################################################
+#                                                                           #
+# This file's U:parameters are used for both DataStage and Shell scriU:pts. #
+#                                                                           #
+#############################################################################
+#                               #
+# Filesystem U:parameters       #
+#                               #
+#################################
+U:pV0030=PDB3PJS0.V0030MEMBERS
+U:pTEMPDIR=/IIS/Data/aeh/feval/temp/
+U:pTEMPFILE=FEVAL_V0030.csv
+U:pDATASOURCE=PENDB2
+U:pUSERNAME=<Insert Parameter Value>
+U:pPASSWORD=<Insert Parameter Value>
+U:pDB2INSTANCEID=db2inst2
+U:pENVIRONMENT=exec(echo "$ENV")
+U:pTARGETDIR=/IIS/Data/aeh/feval/target/
+U:pSCRIPTPATH=/IIS/Projects/aeh/scripts/
+U:pAPPEND=FEVAL_AEH_APPEND.sh
+U:pLOGDIR=/IIS/Data/aeh/feval/logs/
+U:pARCHIVEDIR=/IIS/Data/aeh/feval/archive/
+U:pDELETEDAYS=7

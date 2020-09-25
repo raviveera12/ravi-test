@@ -1,0 +1,2 @@
+Source File Name|Source Path|Target CD Node|Target Path
+AEH*|/IIS/Data/aeh/feval/target/|/IIS/Data/aeh/feval/logs/|/IIS/Data/aeh/feval/archive/|CDRRSLTSBDC1003|\\VSQLGASSISTME01.global.lloydstsb.com\Data\In\FEVAL\

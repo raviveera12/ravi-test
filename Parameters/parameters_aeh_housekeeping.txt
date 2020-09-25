@@ -1,0 +1,7 @@
+sqHousekeeping:U:pLogDirectory=/IIS/Data/aeh/logs/
+sqHousekeeping:U:pType=detail
+sqHousekeeping:U:pLogLifespan=1
+sqHousekeeping:U:pLogsToFile=N
+sqHousekeeping:U:pPurgeLogs=Y
+sqHousekeeping:U:pFilterDays=
+sqHousekeeping:U:pPurgeInput=-2

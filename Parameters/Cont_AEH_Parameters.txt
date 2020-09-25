@@ -1,0 +1,69 @@
+#########################################################################
+#                                                                       #
+# This file's parameters are used for both DataStage and Shell scripts. #
+#                                                                       #
+#########################################################################
+#                               #
+# Filesystem parameters         #
+#                               #
+#################################
+U:pFILECHECKER=FileChecker.sh
+U:pFILEVALIDATION=Cont_FileValidation.sh
+U:pAPPENDREJECT=Cont_RejectFile_Append.sh
+U:pRECONCILE=Cont_Reconcile.sh
+U:pRECONCILE_CHK=Cont_Reconcile_Chk.sh
+U:pTARGET=Cont_Target.sh
+U:pPURGE=Cont_PostProcessor.sh
+U:pMETADATACHK=Cont_Metadata_Chk.sh
+U:pSOURCEDIR=/IIS/Data/aeh/contribution/source/
+U:pPROCESSINGDIR=/IIS/Data/aeh/contribution/processing/
+U:pARRIVALDIR=/IIS/Data/aeh/contribution/arrival/
+U:pREJECTDIR=/IIS/Data/aeh/contribution/reject/
+U:pTARGETDIR=/IIS/Data/aeh/contribution/target/
+U:pREFERENCEDIR=/IIS/Data/aeh/contribution/reference/
+U:pARCHIVEDIR=/IIS/Data/aeh/contribution/archive/
+U:pSCRIPTPATH=/IIS/Projects/aeh/scripts/
+U:pTEMPDIR=/IIS/Data/aeh/contribution/temp/
+U:pREPORTDIR=/IIS/Data/aeh/contribution/report/
+U:pUNPROCESSEDDIR=/IIS/Data/aeh/contribution/reject/unprocessed/
+U:pLOGDIR=/IIS/Data/aeh/contribution/logs/
+U:pENVARIABLE=exec(echo "$ENV")
+U:pTOMAIL=Auto-enrolment@scottishwidows.co.uk
+U:pFILELISTNAME=file_list.txt
+U:pHDRFILENAME=HEADER_AEH*
+U:pHEADERREJFILE=HEADER_REJ_FILE.txt
+U:pTRLFILENAME=TRAILER_AEH*
+U:pTRAILERREJFILE=TRAILER_REJ_FILE.txt
+U:pFILENAME=AEH_*
+U:pDETAILREJFILE=DETAIL_REJ_FILE.txt
+U:pDETAILREJFILE1=DETAIL_REJ_FILE_SUM.txt
+U:p2010REJ=REJ_2010_FILE.txt
+U:pSEQNAME=AEH
+U:pSOURCENAME=AEH
+U:pTGTFILE1=HEADER_VALID.csv
+U:pTGTFILE2=TRAILER_VALID.csv
+U:pTGTFILE3=DETAIL_VALIDFILE.csv
+U:pTGTFILE4=DETAIL_VALID_SUM.csv
+U:pTGTFILE5=DETAIL_CONT_DATE.csv
+U:pTGTFILE6=CONT_T2010.csv
+U:pTGTFILE7=CONT_T2020.ds
+U:pTGTFILE8=DETAIL_FILE.csv
+U:pTGTFILE9=CONT_T2060_UPDATE.csv
+U:pTGTFILE10=CONT_T2060_INSERT.csv
+U:pREJFILE1=HEADER_EXCEPTION.csv
+U:pREJFILE2=TRAILER_EXCEPTION.csv
+U:pREJFILE3=DETAIL_EXCEPTION.csv
+U:pREJFILE4=DETAIL_EXCEPTION_SUM.csv
+U:pREJFILE5=REJ_2010_CONT.csv
+U:pREJFILE6=REJ_2020_CONT.csv
+U:pDATASOURCENAME=PENDB2
+U:pUSERNAME=<Insert Parameter Value>
+U:pPASSWORD=<Insert Parameter Value>
+U:pV0020=PDB3PJS0.V0020SCHEME
+U:pV0050=PDB3PJS0.V0050MEMBER_ARR
+U:pV2010=PDB3PJS0.V2010SCHEME_UPLOAD_PH3
+U:pV2020=PDB3PJS0.V2020UPLOAD_DATA_PH3
+U:pV2060=PDB3PJS0.V2060LATEST_HUB
+U:pDETAILVALIDFILE=DETAIL_VALID_FILE.txt
+U:pDELETEDAYS=7
+U:pDB2INSTANCEID=db2inst2

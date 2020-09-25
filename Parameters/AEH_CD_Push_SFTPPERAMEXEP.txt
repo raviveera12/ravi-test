@@ -1,0 +1,2 @@
+Source File Name|Source Path|Target CD Node|Target Path
+*_TFRMEXCP*|/IIS/Data/aeh/newjoiners/reject/|cdrrsltsbdc1003|\\filadscotwidc29\OSH1VOL2\Corppens\Auto Enrolment\Exceptions\New Entrants\

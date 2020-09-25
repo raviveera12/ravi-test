@@ -1,0 +1,2 @@
+Source File Name|Source Path|Target CD Node|Target Path
+PEN*|/IIS/Data/aeh/newjoiners/target/|cdrrsltsbdc1003|\\filadscotwidc29\OSH1VOL2\Corppens\Auto Enrolment\CS Files\New Entrants\

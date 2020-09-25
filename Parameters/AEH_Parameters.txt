@@ -1,0 +1,58 @@
+########################################################################
+#                                                                       #
+# This file's parameters are used for both DataStage and Shell scripts. #
+#                                                                       #
+#########################################################################
+#                               #
+# Filesystem parameters         #
+#                               #
+#################################
+U:pSOURCEDIR=/IIS/Data/aeh/newjoiners/source/
+U:pPROCESSINGDIR=/IIS/Data/aeh/newjoiners/processing/
+U:pARRIVALDIR=/IIS/Data/aeh/newjoiners/arrival/
+U:pREJECTDIR=/IIS/Data/aeh/newjoiners/reject/
+U:pTARGET_DIR=/IIS/Data/aeh/newjoiners/target/
+U:pREFERENCEDIR=/IIS/Data/aeh/newjoiners/reference/
+U:pARCHIVEDIR=/IIS/Data/aeh/newjoiners/archive/
+U:pSCRIPTPATH=/IIS/Projects/aeh/scripts/
+U:pLOGDIR=/IIS/Data/aeh/newjoiners/logs/
+U:pPIPEFILE=/IIS/Data/aeh/newjoiners/source/file_list.txt
+U:pTIME=/IIS/Data/aeh/newjoiners/source/time.txt
+U:pPROCESSINGFILE=PEN_EXT_FILE.ds
+U:pSEQNAME=AEH
+U:pSOURCENAME=AEH
+U:pPROCESSTGTFILE=t2020.ds
+U:pREJECTFILE1=rej_ext.txt
+U:pREJECTFILE=rej_1000.txt
+U:pREJECT_FILE2=rej_2000.txt
+U:pREJECTFILE3=rej_2010.txt
+U:pREJECT_FILE4=rej_2020.txt
+U:pREJECTFILE5=rej_2030.txt
+U:pREFILE1=2010.txt
+U:pREFILE2=2020.txt
+U:pREFILE3=2030.txt
+U:pREFILE4=2060_Upt.txt
+U:pREFILE5=2060_Ins.txt
+U:pTARGET_FILE1=PEN_TGT_CS
+U:pPROCESSINGREFFILE=PEN_EXT_FILE.ds
+U:pREFERENCEFILE=Header_trailer
+U:pREJECTLKP2FILE=REJ_2010_LKP2.DS
+U:pSYSTEMID=
+U:pDELDAYS=7
+U:pTOMAIL=Auto-enrolment@scottishwidows.co.uk
+U:pFileValidate=FileValidation.sh
+U:pPurgeScript=PostProcessor.sh
+U:pAppendScript=Exception_HeaderTrailer.sh
+U:pFileChecker=FileChecker.sh
+U:pReconcile=Reconcile.sh
+U:pReconcilechk=Reconcile_chk.sh
+U:pENVARIABLE=exec(echo "$ENV")
+U:pDATASOURCENAME=PEN
+U:pUSERNAME=<Insert Parameter Value>
+U:pPASSWORD=<Insert Parameter Value>
+U:pT9030=PDB3PJS0.V9030FUNCT_DEFAULT
+U:pT0020=PDB3PJS0.V0020SCHEME
+U:pT2010=PDB3PJS0.V2010SCHEME_UPLOAD
+U:pT2020=PDB3PJS0.V2020UPLOAD_DATA
+U:pT2030=PDB3PJS0.V2040FUND_SPLIT
+U:pT2040=PDB3PJS0.V2060LATEST_HUB

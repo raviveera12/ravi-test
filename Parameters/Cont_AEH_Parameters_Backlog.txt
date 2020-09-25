@@ -1,0 +1,25 @@
+#########################################################################
+#                                                                       #
+# This file's parameters are used for both DataStage and Shell scripts. #
+#                                                                       #
+#########################################################################
+#                               #
+# Filesystem parameters         #
+#                               #
+#################################
+U:pFILECHECKER=Preformate_FileChecker.sh
+U:pAPPEND=Preformate_App_HeaderTrailerDetail.sh
+U:pSCRIPTPATH=/IIS/Projects/aeh/scripts/
+U:pSOURCEDIR=/IIS/Data/aeh/backlog/source/
+U:pARRIVALDIR=/IIS/Data/aeh/backlog/arrival/
+U:pTARGETDIR=/IIS/Data/aeh/backlog/target/
+U:pARCHIVEDIR=/IIS/Data/aeh/backlog/archive/
+U:pTEMPDIR=/IIS/Data/aeh/backlog/temp/
+U:pLOGDIR=/IIS/Data/aeh/backlog/logs/
+U:pREJECTDIR=/IIS/Data/aeh/backlog/reject/
+U:pHEADERFILENAME=HEADER.txt
+U:pTRAILERFILENAME=TRAILER.txt
+U:pDETAILFILENAME=DETAIL.txt
+U:pPIPEFILE=/IIS/Data/aeh/backlog/source/file_list_backlog.txt
+U:pENVARIABLE=exec(echo "$ENV")
+U:pDELETEDAYS=7
